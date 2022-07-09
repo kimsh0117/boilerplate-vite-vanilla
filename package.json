@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate-vite-vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Kim Sang Hun",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vanilla",
+    "prettier",
+    "eslint"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-html": "6.2.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.0",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "sass": "1.53.0",
+    "stylelint": "14.9.1",
+    "stylelint-config-html": "1.1.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recess-order": "3.0.0",
+    "stylelint-config-recommended-scss": "6.0.0",
+    "stylelint-prettier": "2.0.0",
+    "vite": "2.9.9",
+    "vite-plugin-eslint": "1.6.1",
+    "vite-plugin-handlebars": "1.6.0",
+    "vite-plugin-stylelint": "2.3.1"
+  }
+}
